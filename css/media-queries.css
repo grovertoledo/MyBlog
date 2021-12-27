@@ -6,6 +6,9 @@
   .blogs-news-img-container {
     grid-row: 2;
   }
+  .blogs-news-img-container img {
+    width: 100%;
+  }
   .blogs-news-info-container {
     grid-column: 1;
     grid-row: 3
@@ -25,7 +28,12 @@
   .blogs-posts-container .post-container {
     max-width: 95%
   }
+  .post-container img {
+    object-fit: cover;
+    max-width: 90%;
+  }
   .projects-main-container {
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
+  }
 }
